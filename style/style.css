@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Ubuntu;
+    text-decoration: none;
 }
 
 /* navbar1 */
@@ -176,6 +177,71 @@ li{
     color: #fff;
     text-decoration: none;
 }
+/* heroimg-container */
+.heroimg-container{
+   
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+   
+    
+   
+}
+.herobox{
+    
+    width: 100%;
+
+    
+}
+.herocolor{
+   
+    background-color: #324065;
+    width: 100%;  
+    color: #fff;
+    line-height: 35px;
+    font-size: larger;
+    
+    
+    
+}
+.heroimg-1 a img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+
+   
+
+    
+
+}
+.herocolor h2{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 290px;
+    padding-top: 50px;
+    
+}
+.hero-text{
+    position: absolute;
+    bottom: 40px;
+    height: 40px;
+    width: 85%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    
+
+}
+.hero-text a{
+    text-decoration: none;
+    color: #324065;
+}
 /* container */
 .container{
     background-color:#E3E6E6;
@@ -220,6 +286,40 @@ li{
 .title2{
     color:#232F3E;
 }
+/* sell-slide-container */
+.sell-slide-container{
+    width: 100%;
+    /* height: 300px; */
+    background-color: #E3E6E6;
+    padding:  0 20px 20px 20px ;
+}
+.sell-slidebar{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.slidebar-text{
+    padding-bottom:8px ;
+   
+}
+.sell-slideimg{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: space-between;
+    
+}
+.sell-slideimg img{
+    height: 200px;
+    flex: 1;
+   
+}
+
 
 
 
